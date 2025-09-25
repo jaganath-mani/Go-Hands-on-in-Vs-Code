@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "go",
+			"label": "go: test package",
+			"command": "test",
+			"args": [
+				"${fileDirname}"
+			],
+			"problemMatcher": [
+				"$go"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "cd d:\\OneDrive - Wavicle Data Solutions\\Bench Tasks\\Go Hands on in Vs Code; go test ${fileDirname}"
+		}
+	]
+}
