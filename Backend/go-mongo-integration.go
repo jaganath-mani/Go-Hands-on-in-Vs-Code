@@ -169,7 +169,7 @@ func addEmployee(c *gin.Context) {
 // ==================== MAIN FUNCTION ====================
 func main() {
 	// Connect to MongoDB
-	client, ctx, cancel, err := connectMongoDB("mongodb+srv://jagan:Jagan%401433@cluster0.ih6wvra.mongodb.net/")
+	client, ctx, cancel, err := connectMongoDB("mongodb+srv://jagan:Jagan%401433@cluster0.uwln9ol.mongodb.net/")
 	if err != nil {
 		log.Fatal("MongoDB connection error:", err)
 	}
